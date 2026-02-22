@@ -1,0 +1,40 @@
+@media (max-width:768px){
+
+    .gallery{
+    
+    grid-template-columns:repeat(2,1fr);
+    
+    }
+    
+    .about-container{
+    
+    flex-direction:column;
+    
+    }
+    
+    /* ↓↓↓ これを追加 ↓↓↓ */
+    
+    .about-content{
+    
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+    
+    }
+    
+    .about-image img{
+    
+    width:200px;
+    height:260px;
+    
+    }
+    
+    /* ↑↑↑ 追加ここまで ↑↑↑ */
+    
+    .header{
+    
+    padding:20px;
+    
+    }
+    
+    }

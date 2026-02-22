@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Miku Sato | Photographer</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-inner">
+
+            <div class="logo">MIKU SATO</div>
+
+            <nav class="nav">
+                <a href="#work">WORK</a>
+                <a href="#about">ABOUT</a>
+                <a href="#history">HISTORY</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="slider">
+            <img src="images/hero/hero01.jpg" class="slide active">
+            <img src="images/hero/hero02.jpg" class="slide">
+            <img src="images/hero/hero03.jpg" class="slide">
+        </div>
+
+        <div class="hero-text">
+            <h1>Miku Sato</h1>
+            <p>Photographer</p>
+        </div>
+
+    </section>
+
+
+    <!-- WORK -->
+    <section id="work" class="section fade-in">
+
+        <h2 class="fade-in">Work</h2>
+
+        <div class="filter fade-in">
+            <button data-filter="all" class="active">All</button>
+            <button data-filter="travel">Travel</button>
+            <button data-filter="portrait">Portrait</button>
+            <button data-filter="landscape">Landscape</button>
+        </div>
+
+        <div class="gallery">
+
+            <img src="images/work/travel/travel1.JPG" data-category="travel" class="fade-in">
+            <img src="images/work/travel/travel2.JPG" data-category="travel" class="fade-in">
+            <img src="images/work/travel/travel3.JPG" data-category="travel" class="fade-in">
+
+            <img src="images/work/portrait/portrait1.jpg" data-category="portrait" class="fade-in">
+            <img src="images/work/portrait/portrait2.JPG" data-category="portrait" class="fade-in">
+
+            <img src="images/work/landscape/landscape1.jpg" data-category="landscape" class="fade-in">
+            <img src="images/work/landscape/landscape2.jpg" data-category="landscape" class="fade-in">
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="fade-in">
+
+        <div class="about-wrapper">
+
+            <h2 class="section-title fade-in">About</h2>
+
+            <div class="about-content fade-in">
+
+                <div class="about-image fade-in">
+                    <img src="images/profile.jpeg">
+                </div>
+
+                <div class="about-text fade-in">
+
+                    <h3 class="about-name">Miku Sato</h3>
+
+                    <p>
+                        山形を拠点に活動するフォトグラファー。<br>
+                        光と空気感を大切にした写真表現を追求しています。<br><br>
+                        ポートレート、風景、トラベルなど、
+                        自然な瞬間を切り取ることを得意としています。
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- HISTORY -->
+    <section id="history" class="section fade-in">
+
+        <h2>History</h2>
+
+        <p>
+            2024 - 2025<br>
+            Photo Studio XXXX<br>
+            Photographer
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section fade-in">
+
+        <h2>Contact</h2>
+
+        <p>Email<br>example@email.com</p>
+        <p>Instagram<br>@example</p>
+
+    </section>
+
+
+    <script src="js/slider.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
